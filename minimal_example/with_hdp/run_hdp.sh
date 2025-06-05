@@ -1,0 +1,1 @@
+hdp-cli dry-run  --compiled_module target/dev/custom_module_multi_cairovm_starknet_get_storage.compiled_contract_class.json -p /Users/kiki/.local/share/hdp/dry_run_compiled.json --print_output

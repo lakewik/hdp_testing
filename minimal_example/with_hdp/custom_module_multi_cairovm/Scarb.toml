@@ -1,0 +1,15 @@
+[package]
+name = "custom_module_multi_cairovm"
+version = "0.1.0"
+edition = "2023_11"
+
+[dependencies]
+starknet = "2.10.0"
+hdp_cairo = { git = "https://github.com/HerodotusDev/hdp-cairo.git" }
+alexandria_bytes = { git = "https://github.com/keep-starknet-strange/alexandria.git" }
+
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
+casm-add-pythonic-hints = true

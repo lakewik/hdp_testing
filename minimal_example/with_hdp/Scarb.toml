@@ -1,0 +1,16 @@
+[workspace]
+version = "0.1.0"
+edition = "2023_11"
+
+members = [
+    "custom_module_multi_cairovm"
+]
+
+[workspace.dependencies]
+
+
+hdp_cairo = { path = "hdp_cairo" }
+starknet = "2.10.0"
+
+[workspace.tool.fmt]
+sort-module-level-items = true
